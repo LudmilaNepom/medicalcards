@@ -1,0 +1,1 @@
+Training project with SpringBoot, SpringData, Hibernate, Lombok.
