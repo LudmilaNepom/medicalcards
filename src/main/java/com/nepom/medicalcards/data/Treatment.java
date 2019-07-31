@@ -21,6 +21,6 @@ public class Treatment {
     private ChildPatient patient;
     @ElementCollection(targetClass=Procedure.class)
     @Enumerated(EnumType.STRING)
-    @CollectionTable(name="PROCEDURE")
+    @CollectionTable(name="PROCEDURES")
     private List<Procedure> procedures;
 }
