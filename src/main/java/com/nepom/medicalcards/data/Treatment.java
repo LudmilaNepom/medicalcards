@@ -1,7 +1,5 @@
 package com.nepom.medicalcards.data;
 
-import com.nepom.medicalcards.util.Procedure;
-
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.List;

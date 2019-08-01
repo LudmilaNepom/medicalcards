@@ -1,4 +1,4 @@
-package com.nepom.medicalcards.util;
+package com.nepom.medicalcards.data;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

@@ -1,7 +1,9 @@
 package com.nepom.medicalcards.service;
 
-import org.springframework.stereotype.Service;
+import com.nepom.medicalcards.data.Doctor;
+import com.nepom.medicalcards.dto.DoctorDto;
 
-@Service
 public interface DoctorService {
+    Iterable<Doctor> findAll();
+    void save(DoctorDto doctorDto);
 }

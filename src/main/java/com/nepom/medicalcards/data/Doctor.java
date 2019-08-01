@@ -1,6 +1,5 @@
 package com.nepom.medicalcards.data;
 
-import com.nepom.medicalcards.util.Kvalification;
 import lombok.*;
 
 import javax.persistence.Entity;
