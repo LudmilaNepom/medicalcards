@@ -13,5 +13,6 @@ import javax.persistence.Table;
 @Entity
 @Table
 public class Doctor extends Person {
+    @javax.validation.constraints.NotNull
     private Kvalification kvalification;
 }

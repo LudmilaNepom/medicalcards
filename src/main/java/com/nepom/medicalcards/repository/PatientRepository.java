@@ -1,9 +1,9 @@
 package com.nepom.medicalcards.repository;
 
 import com.nepom.medicalcards.data.ChildPatient;
-import org.springframework.data.repository.CrudRepository;
-import org.springframework.stereotype.Repository;
+import com.nepom.medicalcards.data.QChildPatient;
+import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
-@Repository
-public interface PatientRepository extends CrudRepository<ChildPatient, Long> {
+@RepositoryRestResource(collectionResourceRel = "patients", path = "patients", itemResourceRel = "patient")
+public interface PatientRepository extends ExCustomRepository<ChildPatient, QChildPatient, Long> {
 }

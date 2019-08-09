@@ -15,10 +15,10 @@ import java.util.List;
 public class TreatmentController {
 
     @Autowired
-    private TreatmentService reservationService;
+    private TreatmentService treatmentService;
 
     @RequestMapping(method= RequestMethod.GET, value="/{date}")
     public List<Treatment> getAllReservationsForDate(@PathVariable(value="date")String dateString){
-        return this.reservationService.getByStartDate(dateString);
+        return this.treatmentService.getByStartDate(dateString);
     }
 }

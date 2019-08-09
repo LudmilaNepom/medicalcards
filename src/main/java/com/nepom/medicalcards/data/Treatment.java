@@ -1,9 +1,16 @@
 package com.nepom.medicalcards.data;
 
+import lombok.*;
+
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.List;
 
+@Getter
+@Setter
+@NoArgsConstructor
+@ToString
+@EqualsAndHashCode
 @Entity
 @Table
 public class Treatment {
